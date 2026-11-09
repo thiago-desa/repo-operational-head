@@ -4,11 +4,13 @@ This proof-of-work repository documents the GitHub / Repo Operational Head Grok 
 
 ## Design influences (ideas, not code)
 
-- Super-agent architecture principles (continuous, productive, proactive, persistent) from public DeepSeek harness style discussions.
-- Graph engineering practices (structure over raw similarity, explicit entities and relationships) from GraphRAG-style work.
-- AI engineering fundamentals (evaluation-driven development, production hygiene, iterative agentic loops) from Andrew Ng's skills map.
+- **Andrew Ng**, AI engineering skills map: evaluation-driven development, grounding choices, agentic systems, and production hygiene as first-class skills.
+- **Microsoft GraphRAG research** and related graph-engineering practice: structure and explicit relationships over flat similarity retrieval alone.
+- **DeepSeek Harness** super-agent design discussions: continuous / productive / proactive / persistent traits, router plus isolated workers, event triggers, watchdog loops, and plugin-style modularity.
+- **Graph engineering practitioners** (including public GraphRAG operators): extraction, entity resolution, verification, and update loops so knowledge compounds.
+- **2026 AGENTS.md practice**: short, high-signal agent entrypoints with exact commands, hard boundaries, and a definition of done (see public AGENTS.md guidance and practitioner write-ups).
 
-None of the above are copied as proprietary text or code. Names are credited because the original role document referenced them as conceptual sources.
+None of the above are copied as proprietary text or code. They are credited because the role document and the review protocol use them as conceptual sources.
 
 ## License
 

@@ -33,6 +33,15 @@ Private bot work is hard to show. This design takes real agent definitions and s
 | `examples/fictional-stage-and-park.md` | Fully fictional staging walkthrough |
 | `ATTRIBUTION.md` | Design influences |
 | `LICENSE` | MIT |
+| `AGENTS.md` | Short agent instructions, boundaries, definition of done |
+| `CONTRIBUTING.md` | How to propose changes safely |
+| `docs/failure-modes.md` | Failure modes and troubleshooting |
+| `evals/` | Golden-set behavioral regressions |
+| `scripts/check.py` | Secrets/PII/em-dash/link hygiene checks |
+| `scripts/github-workflow-checks.yml` | GitHub Actions workflow (copy to `.github/workflows/checks.yml` when the token has `workflow` scope) |
+| `skills/repo-template-review.md` | Living review protocol for repos and templates |
+| `graphs/review-graph.md` | Principles and relationships used in reviews |
+| `docs/review-2026-11-09.md` | Review findings and lessons (2026-11-09) |
 
 ## Proof-of-work notes
 
@@ -42,6 +51,10 @@ This repository is a cleaned public snapshot of the Repo Operational Head role i
 - Explicit approval gates for irreversible git and GitHub actions
 - Sanitize-before-stage discipline
 - Portfolio graph of bots, skills, and repositories
+
+## Review findings
+
+Portfolio review notes (repos and templates): [docs/review-2026-11-09.md](docs/review-2026-11-09.md).
 
 ## License and attribution
 
